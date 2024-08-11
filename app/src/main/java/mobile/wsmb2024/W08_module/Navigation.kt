@@ -51,9 +51,9 @@ fun Navigation(
 //        userViewModel.getUserData(currentUser.uid)
 //    }
 
-    LaunchedEffect(key1 = true) {
-        userViewModel.getUserData(currentUser!!.uid)
-    }
+//    LaunchedEffect(key1 = true) {
+//        userViewModel.getUserData(currentUser!!.uid)
+//    }
     NavHost(
         navController = navController,
 
